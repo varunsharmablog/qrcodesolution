@@ -4,11 +4,12 @@ body {
     text-align: center;
 }
 
-h2 {
+h1 {
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
-    width: 300px;
+    width: 250px;
     margin: 20px auto;
+    font-size: 22px;
 }
 
 .card {
@@ -18,7 +19,7 @@ h2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
      width: 320px;
-     border-radius: 3%;
+     border-radius: 5%;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
@@ -26,15 +27,15 @@ h2 {
 
 .qr-code-image {
     width: 288px;
-    border-radius: 3%;
+    border-radius: 5%;
     margin: 15px auto 0 auto;
 }
 
  .main-paragraph{
     font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%);
-    size: 15px;
-    width: 275px;
+    font-size: 15px;
+    width: 250px;
     padding-bottom: 30px;
     margin: auto;
 }
