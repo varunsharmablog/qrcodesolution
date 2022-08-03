@@ -4,18 +4,6 @@ body {
     text-align: center;
 }
 
-div {
-    position: fixed;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 330px;
-     border-radius: 3%;
-    margin: auto;
-    background-color: hsl(0, 0%, 100%);
-    font-family: 'Outfit', sans-serif;
-}
-
 h2 {
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
@@ -23,7 +11,26 @@ h2 {
     margin: 20px auto;
 }
 
-p {
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+     width: 320px;
+     border-radius: 3%;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-code-image {
+    width: 288px;
+    border-radius: 3%;
+    margin: 15px auto 0 auto;
+}
+
+ .main-paragraph{
     font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%);
     size: 15px;
@@ -32,8 +39,12 @@ p {
     margin: auto;
 }
 
-.qr-code-image {
-    width: 300px;
-    border-radius: 3%;
-    margin: 15px auto 0 auto;
+.attribution {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-size: 0.5rem;
 }
