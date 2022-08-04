@@ -19,7 +19,7 @@ h1 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
      width: 320px;
-     border-radius: 5%;
+     border-radius: 20px;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
@@ -27,7 +27,7 @@ h1 {
 
 .qr-code-image {
     width: 288px;
-    border-radius: 5%;
+    border-radius: 10px;
     margin: 15px auto 0 auto;
 }
 
